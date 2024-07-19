@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/crow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title{
+    margin: auto;
+    padding: 3px 3px 3px 2px;
+    font-size: 3.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1b1f2baf;
+    backdrop-filter: blur(10px);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: hsl(0, 3%, 61%);
+    align-items: center;
+    border: #1b1f2baf 5px solid;
+    border-radius: 25px;
+}
+#display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: 600;
+    color: #272727;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#controls{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+#controls button{
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    padding: 10px;
+    min-width: 60;
+    border: 1.5px #000 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+#startBTN{
+    background-color: rgb(1, 73, 1);
+    transition: background-color 1s ease;
+}
+
+
+#startBTN:hover{
+    transition: background-color 1s ease;
+    background-color: rgb(4, 134, 4);
+}
+
+
+#startBTN:active{
+    background-color: rgb(4, 214, 4);
+}
+
+
+
+
+
+
+#resetBTN{
+    background-color: rgb(104, 2, 2);
+    transition: background-color 1s ease;
+}
+
+
+#resetBTN:hover{
+    transition: background-color 1s ease;
+    background-color: rgb(158, 8, 8);
+}
+
+
+
+#resetBTN:active{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+#stopBTN{
+    background-color: rgb(1, 56, 73);
+    transition: background-color 1s ease;
+}
+#stopBTN:hover{
+    transition: background-color 1s ease;
+    background-color: rgb(4, 134, 173);
+}
+#stopBTN:active{
+    background-color: rgb(4, 196, 255);
+}
